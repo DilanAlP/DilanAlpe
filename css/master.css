@@ -1,0 +1,71 @@
+body{
+  font: 13pt Teko, verdana, sans-serif;
+  margin: 0;
+  background-color: black;
+}
+ @font-face {
+   font-family: 'Teko';
+   src: url('/font/Teko-Bold.ttf') format('truetype'),
+   url('font/Teko-Light.ttf') format('truetype'),
+   url('font/Teko-Medium.ttf') format('truetype'),
+   url('font/Teko-Regular.ttf') format('truetype'),
+   url('font/Teko-Semibold.ttf') format('truetype');
+   font-style: normal;
+ }
+.titlesection{
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  background-image: url('../img/Dforest.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+ #hello{
+   text-align:left;
+   margin: 0;
+   font-size: 50px;
+   color: white;
+ }
+
+ #mynanme{
+   text-align:left;
+   margin: 0;
+   font-size: 200px;
+   color: white;
+ }
+
+ #tree{
+   margin: 0;
+  float: right;
+ }
+
+ }
+ .info{
+   margin: 15%;
+   color: white;
+
+ }
+ #skills{
+   margin: 15%;
+   color: white;
+   background-color:#4661E5;
+   -moz-border-radius: 20px;
+   -web-kit-border-radius:20px;
+   border-radius: 20px;
+   width: 20%;
+ }
+
+.abi{
+  margin: 15%;
+  color: white;
+}
+#ability{
+  margin: 10%;
+  color: white;
+  background-color: #E54646;
+  -moz-border-radius: 20px;
+  -web-kit-border-radius:20px;
+  border-radius: 20px;
+  width: 25%;
+}
