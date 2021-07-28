@@ -1,7 +1,7 @@
 body{
   font: 13pt Teko, verdana, sans-serif;
   margin: 0;
-  background-color: black;
+  background-color: #000000;
 }
  @font-face {
    font-family: 'Teko';
@@ -45,7 +45,7 @@ header{
 
  #fuego{
    float: left;
-   left: 60%;
+   left: 70%;
    top: 0px;
    width: 30%;
    position: absolute;
@@ -55,16 +55,15 @@ header{
     position: sticky;
     float: left;
     left: 50%;
+    top: 50%;
   }
-
- #tree{
-  margin: 0;
-  width: 110%;
-  float: right;
-  position: sticky;
-  top:800px;
- }
-
+  #tree{
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    float: left;
+    top: 100%;
+  }
  }
  .info{
    margin: 15%;
