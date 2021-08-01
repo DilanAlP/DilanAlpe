@@ -113,3 +113,19 @@ header{
    border-sizing:border-box;
    margin:15px;
  }
+ .marco1 {
+   float: left;
+    padding:8px;
+    background-color: rgba(39, 8, 142,.4);
+    width: 250px;
+    border: 1px;
+    border-radius: 100%;
+ }
+ .marco1 img{
+    border: 1px solid #000000;
+    border-radius: 100%;
+    margin: none;
+    padding: none;
+    left: 100px;
+
+ }
